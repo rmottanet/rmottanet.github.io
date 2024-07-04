@@ -1,0 +1,35 @@
+///
+/// Started over using the HTML5 UP Dimension template html5up.net | @ajlkn
+/// Original template licensed under CC BY 3.0 (html5up.net/license)
+/// 
+/// rmotta.info:~#
+/// rmotta.info@gmail.com
+///
+
+/* Icon */
+
+	.icon {
+		@include icon;
+		border-bottom: none;
+		position: relative;
+
+		> .label {
+			display: none;
+		}
+
+		&:before {
+			line-height: inherit;
+		}
+
+		&.solid {
+			&:before {
+				font-weight: 900;
+			}
+		}
+
+		&.brands {
+			&:before {
+				font-family: 'Font Awesome 5 Brands';
+			}
+		}
+	}

@@ -1,0 +1,39 @@
+/*
+    Started over using the HTML5 UP Dimension template html5up.net | @ajlkn
+    Original template licensed under CC BY 3.0 (html5up.net/license)
+
+    rmotta.info:~#
+    rmotta.info@gmail.com
+*/
+
+/* BG */
+
+	body.is-preload #bg:before {
+		background-color: transparent;
+	}
+
+/* Header */
+
+	body.is-preload #header {
+		-moz-filter: none;
+		-webkit-filter: none;
+		-ms-filter: none;
+		filter: none;
+	}
+
+		body.is-preload #header > * {
+			opacity: 1;
+		}
+
+		body.is-preload #header .content .inner {
+			max-height: none;
+			padding: 3rem 2rem;
+			opacity: 1;
+		}
+
+/* Main */
+
+	#main article {
+		opacity: 1;
+		margin: 4rem 0 0 0;
+	}
